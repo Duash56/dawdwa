@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Dummy Website</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">DummySite</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <h1>Contact</h1>
+    <form id="contact-form">
+      <label>Name<br><input type="text" name="name" required></label>
+      <label>Email<br><input type="email" name="email" required></label>
+      <label>Message<br><textarea name="message" rows="5" required></textarea></label>
+      <button type="submit" class="btn">Send</button>
+      <div id="form-msg" class="form-msg" aria-live="polite"></div>
+    </form>
+  </main>
+  <footer>
+    <div class="container">
+      <small>&copy; 2026 DummySite</small>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
